@@ -20,7 +20,7 @@ class P2:
 
     def iniciarSesion(self, nombreUsuario, contrasena):
         while True:
-            if nombreUsuario != "prueba" or contrasena != "programacion":
+            if nombreUsuario != "" or contrasena != "": //Credenciales de inicio de sesion de tu pagina default del router
                 nombreUsuario = input("Las credenciales son incorrectas. Ingrese el nombre de usuario del router: ")
                 contrasena = input("Ingrese la contraseña del router: ")
             else:
